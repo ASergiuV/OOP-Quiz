@@ -114,4 +114,12 @@ class DBRepository extends Repository
         $stmt->bindValue(2, $user->getEmail(), PDO::PARAM_STR);
         $success = $stmt->execute();
     }
+
+    /**
+     * @return int
+     */
+    public function getMaxScore() : int
+    {
+        return $this->quiz->getMaxScore();
+    }
 }

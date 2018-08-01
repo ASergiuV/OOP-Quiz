@@ -91,4 +91,9 @@ class Controller
         $this->repository->setQuiz($quizID);
     }
 
+    public function getMaxScore()
+    {
+        return $this->repository->getMaxScore();
+    }
+
 }

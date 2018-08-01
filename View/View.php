@@ -70,13 +70,14 @@ class View
         }
         echo "Quiz has ended!" . PHP_EOL;
         $this->controller->updateUserScore($user);
+        $maxScore = $this->controller->getMaxScore();
         echo "Output your score to the screen or do you want it mailed? 1 - screen; 2 - email" . PHP_EOL;
         $userChoice = readline();
         if ($userChoice == 2) {
             mail($user->getEmail(), strtoupper('Your Score for the Amazing Quiz you just took'),
-                'Score: ' . $user->getScore() . "\n We wish you a happy evening!\n Bye!");
+                'Score: ' . $user->getScore() . "/" . $maxScore . "\n We wish you a happy evening!\n Bye!");
         } else {
-            echo "Your score is {$user->getScore()} !" . PHP_EOL;
+            echo "Your score is {$user->getScore()}" . "/" . $maxScore . PHP_EOL;
         }
     }
 
