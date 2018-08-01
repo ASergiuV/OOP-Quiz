@@ -1,2 +1,2 @@
 # OOP-Quiz
-Best Quiz Evaaaaaa - said 16 year old
+Basic OOP and PDO stuff
