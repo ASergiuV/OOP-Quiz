@@ -1,0 +1,11 @@
+INSERT INTO Quiz.USER (id, email, score) VALUES (7, 'dsa', 0);
+INSERT INTO Quiz.USER (id, email, score) VALUES (8, 'Manuel', 10);
+INSERT INTO Quiz.USER (id, email, score) VALUES (9, 'Denis', 15);
+INSERT INTO Quiz.USER (id, email, score) VALUES (10, 'Grig', 20);
+INSERT INTO Quiz.USER (id, email, score) VALUES (11, 'dsa', 0);
+INSERT INTO Quiz.USER (id, email, score) VALUES (12, 'Iulian', 0);
+INSERT INTO Quiz.USER (id, email, score) VALUES (13, 'Grenadier', 15);
+INSERT INTO Quiz.USER (id, email, score) VALUES (14, 'dev', 10);
+INSERT INTO Quiz.USER (id, email, score) VALUES (15, 'sergiu.abrudean@evozon.com', 20);
+INSERT INTO Quiz.USER (id, email, score) VALUES (16, 'sergiu.abrudean@evozon.com', 20);
+INSERT INTO Quiz.USER (id, email, score) VALUES (17, 'sergiu.abrudean@evozon.com', 20);
